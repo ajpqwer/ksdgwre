@@ -6,57 +6,118 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Changa">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
+.w3-logo-name {font-family: "Changa", sans-serif; font-size:29px}
+.w3-logo-blue{font-family: "Changa", sans-serif; font-size:24px; color: #0072e5!important} 
+.w3-blue-02,.w3-hover-blue_02:hover{color:#fff!important;background-color:#0072e5!important}
+.w3-wide-2px{letter-spacing:2px}
+.w3-blue-01{color:#fff!important;background-color:#0072e5!important}
+
+.label1 {
+display: inline;
+padding: .2em .6em .3em;
+font-size: 75%;
+font-weight: 700;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+}
+.label1-primary {background-color: #337ab7;}
+.label1-success {background-color: #5cb85c;}
+.label1-info {background-color: #5bc0de;}
+.products-size {font-family: "Changa", sans-serif; font-size:40px}
+.industries-size {font-family: "Lobster", sans-serif; font-size:40px}
 </style>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
+
+    <!-- <div class="w3-bar w3-green w3-card w3-left-align" id="home">
+        <div class="w3-display-left" style="white-space:nowrap;"><img src="assets/NameLogo_Final1.png" height="60px"/>
+          <span class="logo-name w3-center w3-padding-large w3-transparent w3-xlarge w3-wide w3-animate-opacity">TechLibOn<span class="w3-hide-small"></span></span>
+        </div>
+      </div> -->
+    <!-- <div class="w3-bar w3-green w3-card w3-left-align">
+        <img src="assets/NameLogo_Final1.png" height="60px"/>
+        <div class="logo-name "> TechLibOn</div>  
+    </div> -->
+
   <div class="w3-bar w3-green w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="https://techlibon.com" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="https://blog.techlibon.com" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Tech Blog On</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Tech Eco-System</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+    
+    <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-large w3-hover-sand w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://www.techlibon.com" class="w3-bar-item w3-button w3-padding-small w3-blue-01 w3-transparent">
+        <span class="w3-center w3-padding-large w3-wide w3-animate-opacity w3-logo-name">TechLibOn</span>        
+    </a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Tech Stack</a>
+    <a href="https://blog.techlibon.com" target="parent"  class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Tech Blog On <span class="material-icons" style="font-size: 14px">&#xE89E;</span></a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">About </a>
+    <a href="careers.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Careers</a>
   </div>
 
+  <!-- <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="https://blog.techlibon.com" target="parent"  class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Tech Blog On <span class="material-icons" style="font-size: 14px">&#xE89E;</span></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Tech Eco-System</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div> -->
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-large">
     <a href="https://blog.techlibon.com" class="w3-bar-item w3-button w3-padding-large">Tech Blog On</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Tech Eco-System</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="careers.html" class="w3-bar-item w3-button w3-padding-large">Careers</a>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Open to Technology</h1>
-  <p class="w3-xlarge">{switch}</p>
-  <p class="w3-xlarge">case: Support every Language on the planet.</p>
-  <p class="w3-xlarge">{end}</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+<header class="w3-container w3-green w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-xxlarge">Open to Technology</h1>
+  <p class="w3-xlarge">{code}</p>
+  <p class="w3-xlarge">{:test: Support every Language on the planet.}</p>
+  <p class="w3-xlarge" >{repeat}</p>
+  <button class="w3-button w3-blue-02 w3-padding-large w3-large w3-margin-top w3-wide-2px">contact@techlibon.com</button>
 </header>
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Tech Stack</h1>
+      <h5 class="w3-padding-32"><span class="w3-wide-2px">The spectrum of technology stack is as vast ,imperative, and perfect to achieve impeccable systems. There are systems that require unique solutions.
+        <!-- The spectrum of technology stack is as vast ,imperative, and perfect which have brought the systems here to the 21st century. -->
+      </span> <span class="w3-logo-blue">TechLibOn </span><span class="w3-wide-2px">expertise in making </span><span class="label1 label1-success">Custom software</span>, <span class="label1 label1-primary">Web apps</span>, <span class="label1 label1-info">Mobile apps</span>.</span>      
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5> -->
+
+      <p class="w3-text-grey">Software Testing (TDD, BDD), Software Development, Software Documentation, Software Analysis, Software Consulting
+        
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. --></p>
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+      <!-- <i class="fa fa-anchor w3-padding-64 w3-text-red"></i> -->
+      <span class="material-icons w3-padding-64 w3-text-blue"  style="font-size: 200px">
+        all_inclusive
+        </span>
     </div>
   </div>
 </div>
@@ -65,35 +126,64 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      <i class="fa fa-coffee w3-padding-64 w3-text-brown w3-margin-right"></i>
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Tech Blog On</h1>
+      <h5 class="w3-padding-32"><span class="w3-wide-2px"><span class="w3-logo-blue">TechLibOn </span>give chance to contributors to share their technical advancements within team and outide team.</span></h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      <!-- <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+        laboris nisi ut aliquip ex ea commodo consequat.</p> -->
     </div>
   </div>
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+    <svg width="300" height="30" class="w3-margin" style="font-size:30px">
+      <text x="70" y="30" fill="White">Industries</text>
+      </svg> <br/>
+    <svg width="100" height="44" class="w3-margin industries-size">
+      <text x="0" y="32" fill="White">Media</text>
+    </svg> 
+    <svg width="138" height="44" class="w3-margin industries-size">
+      <text x="0" y="32" fill="White">Banking</text>
+    </svg> 
+    <svg width="200" height="44" class="w3-margin industries-size">
+      <text x="0" y="32" fill="White">E-Commerce</text>
+    </svg> <br/>
+    <svg width="300" height="30" class="w3-margin" style="font-size:30px">
+      <text x="70" y="25" fill="White">Products</text>
+      </svg> <br/>
+    <svg width="100"  height="40"  class="w3-margin products-size">
+      <text x="0" y="30" fill="White">CRM</text>
+    </svg> 
+    <svg  width="220"  height="40" class="w3-margin products-size">
+      <text x="0" y="30" fill="White">Web Portals</text>
+    </svg> 
+    <svg width="220"  height="40" class="w3-margin products-size">
+      <text x="0" y="30" fill="White">Mobile Apps</text>
+    </svg>
+    <svg width="160" height="40" class="w3-margin products-size">
+      <text x="0" y="30" fill="White">Wallets</text>
+    </svg>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
-  <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+<footer class="w3-container w3-padding-16 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-16">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i> -->
     <i class="fa fa-linkedin w3-hover-opacity"></i>
  </div>
- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+ <svg width="400" height="15" class="w3-margin" style="font-size:15px">
+  <text x="100" y="13" fill="blue">Email: contact@techlibon.com</text>
+  </svg>
+ <p>Powered by <a href="https://www.techlibon.com" target="_blank">TechLibOn</a></p>
 </footer>
 
 <script>
