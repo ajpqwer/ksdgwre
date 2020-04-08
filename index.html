@@ -51,6 +51,22 @@ border-radius: .25em;
       background-image: url(assets/home_banner.svg);
 
 }
+.get-started-banner__floating-circles-background {
+      background-image: url(assets/homeBlogBanner.svg);
+      background-size: cover;
+      background-repeat: repeat-y;
+      background-position: 50%;
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      padding: 4em;
+      display: inline-block;
+      -webkit-animation: floatCircleTablet 20s linear infinite;
+      animation: floatCircleTablet 20s linear infinite;
+
+}
 </style>
 </head>
 <body>
@@ -109,7 +125,7 @@ border-radius: .25em;
 </div>
 
 <!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container get-started-banner__floating-circles-background">
   <div class="w3-content">
     <div class="w3-third w3-center">
       <i class="fa fa-coffee w3-padding-64 w3-text-brown w3-margin-right"></i>
@@ -156,8 +172,7 @@ border-radius: .25em;
 <!-- Footer -->
 <footer class="w3-container w3-padding-16 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-16">
-
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/company/techlibon" ><i class="fa fa-linkedin w3-hover-opacity"></i></a>
  </div>
  <svg width="400" height="15" class="w3-margin" style="font-size:15px">
   <text x="100" y="13" fill="blue">Email: contact@techlibon.com</text>
