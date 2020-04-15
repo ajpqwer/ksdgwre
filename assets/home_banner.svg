@@ -6,7 +6,7 @@
      width="8.33333in" height="4.45833in"
      viewBox="0 0 600 230">
   <path id="Selection"
-        fill="#ece7e7" fill-opacity="0.1" 
+        fill="none" fill-opacity="0.1" stroke="#ece7e7" stroke-opacity="0.2" 
         d="M 31.84,2.62
            C 33.32,3.26 34.63,4.83 33.26,6.33
              31.89,7.83 29.06,7.01 27.00,7.68
